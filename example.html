@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>
+        example
+    </title>
+</head>
+<body>
+    <ul>
+        <li><a href="example.com" id="ancor"> Гиперссылка на example.com </a></li>
+        <li><a href="https://example.com">  Абсолютная гиперссылка на главную страницу example.com  </a></li>
+        <li><a href="ftp://tavalik.ru/Temp/file.txt">  Ссылка на файл на сервере FTP без авторизации  </a></li>
+        <li><a href="ftp://user001:pass123@tavalik.ru/Temp/file.txt">  Ссылка на файл на сервере FTP с авторизацией  </a></li>
+        <li><a href="https://vk.com/away.php?utf=1&to=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FMarie_S%25C3%25A9raphique%23References">  Ссылка на фрагмент страницы</a></li>
+        <li><a href="#ancor">  Ссылка на фрагмент данной страницы  </a></li>
+        <li><a href="https://example.com/products/women?category=dresses&color=green">  Ссылка с двумя параметрами URL  </a></li>
+        <li>
+            <ul>
+                <li><a href="https://www.kubsu.ru/ru/university" title="Университет">Университет</a></li>
+                <li><a href="https://www.kubsu.ru/ru/education" title="Образование">Образование</a></li>
+                <li><a href="https://www.kubsu.ru/ru/science" title="Наука">Наука</a></li>
+                <li><a href="https://www.kubsu.ru/ru/abiturient" title="Абитуриентам">Абитуриентам</a></li>
+                <li><a href="https://www.kubsu.ru/ru/studlife" title="Студентам">Студентам</a></li>
+            </ul>
+        </li>
+        <li><a> ссылка без href  </a></li>
+        <li><a href="">  ссылка с пустым href  </a></li>
+        <li><a href="https://example.com/" rel="nofollow">  ссылка, по которой запрещен переход поисковикам;</a></li>
+        <li><a href="http://example.com/"><noindex>  запрещенная для индексации поисковиками</noindex></a></li>
+        <li>
+            <p>
+                Контекстной считается ссылка, размещенная в фрагменте текстового контента, в который она вписывается по смыслу.
+                То есть имеет адекватный <a href="https://seo-akademiya.com/seo-wiki/ankor/">анкор</a>, который выглядит естественным при чтении текста. Если ссылка безанкорная,
+                то ее употребление объясняется околоссылочным текстом. Чаще всего это отзыв либо рекомендация.
+            </p>
+        </li>
+        <li><a href="http://example.com/"><img src="image.jpg" width="300"></a></li>
+        <li>
+            <style>
+                #raz {
+                    position: relative;
+                    display: inline-block;
+                }
+
+                    #raz a {
+                        position: absolute;
+                        border: 1px solid rgba(255,255,255,.5);
+                    }
+
+                        #raz a:nth-of-type(1) {
+                            left: 10%;
+                            top: 17%;
+                            width: 22%;
+                            height: 20%;
+                        }
+
+                        #raz a:nth-of-type(2) {
+                            left: 37%;
+                            top: 26%;
+                            width: 22%;
+                            height: 20%;
+                            border-radius: 100px / 20px 20px 60px 60px;
+                            transform: rotate(-12deg);
+                        }
+
+                        #raz a:nth-of-type(3) {
+                            left: 50%;
+                            top: 20%;
+                            width: 25%;
+                            height: 20%;
+                            border-radius: 100%;
+                        }
+
+                        #raz a:hover {
+                            background: rgba(255,255,255,.3);
+                        }
+            </style>
+            <span id="raz">
+                <img src="https://sun9-20.userapi.com/impg/OfZCjumsEm8OH89AQIlxa2CnoT97aAJsoXtRdw/FW4potRVqY8.jpg?size=1280x960&quality=96&sign=870f49b5fe7a45069ec4bb9b4ed6c27e&type=album" width="640" height="360" />
+                <a href="#raz1" title="Лепесточек"></a>
+            </span>
+        </li>
+        <li><a href="/about">Относительная ссылка на страницу в текущем каталоге</a> </li>
+        <li><a href="/about/contacts">  Относительная ссылка в каталоге about  </a> </li>
+        <li><a href="../page.html">  Относительная в каталоге уровнем выше текущего  </a></li>
+        <li><a href="../../page.html">  Относительная в каталоге уровнем выше текущего  </a></li>
+        <li><a href="https://vk.cc/7mvx6w">КУБГУ</a>  Сокращенная ссылка на главную страницу Кубгу</li>
+        <li><a href="https://vk.cc/c5SFWz">Сокращенная ссылка на внутреннюю страницу КубГУ</a></li>
+    </ul>
+</body>
+
+</html>
